@@ -5,7 +5,7 @@ import getQueryParameter from './getQueryParameter'
 import reset from './reset'
 /* global localStorage */
 
-export default class LinkedIn extends React.Component {
+export default class VKLogin extends React.Component {
 
   static propTypes = {
     clientId: React.PropTypes.string,
