@@ -6,7 +6,7 @@ react-vk-login
 
 ```js
 import React from 'react'
-import VK from 'react-vk-login'
+import VKLogin from 'react-vk-login'
 import styles from './styles.css'
 import autobind from 'autobind-decorator'
 
@@ -23,11 +23,12 @@ export default class LoginWithVK extends React.Component {
 
   render () {
     return (
-      <VK
+      <VKLogin
         clientId='xxx'
         callback={this.callbackVK}
         className={styles.vk}
-        text='VK' />
+        text='VK'
+      />
     )
   }
 

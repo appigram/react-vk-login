@@ -1,9 +1,9 @@
 {
   "name": "react-vk-login",
-  "version": "1.0.3",
+  "version": "1.0.0",
   "description": "React VK Login button",
   "main": "./lib",
-  "repository": "https://github.com/orionsoft/react-vk-login",
+  "repository": "https://github.com/appigram/react-vk-login",
   "author": "appigram",
   "license": "MIT",
   "scripts": {
