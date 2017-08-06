@@ -8,7 +8,6 @@ react-vk-login
 import React from 'react'
 import VKLogin from 'react-vk-login'
 import styles from './styles.css'
-import autobind from 'autobind-decorator'
 
 export default class LoginWithVK extends React.Component {
 
@@ -16,8 +15,7 @@ export default class LoginWithVK extends React.Component {
 
   }
 
-  @autobind
-  callbackVK ({code, redirectUri}) {
+  callbackVK = ({code, redirectUri}) => {
     // Login with vk
   }
 
